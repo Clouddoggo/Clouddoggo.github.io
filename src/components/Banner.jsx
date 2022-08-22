@@ -2,7 +2,7 @@ import Typography from '@mui/material/Typography';
 import React from 'react';
 
 const Banner = () => (
-  <div>
+  <div className="banner">
     <Typography variant="h4">
       Hi! I&apos;m Jel
     </Typography>

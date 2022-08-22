@@ -5,6 +5,7 @@ import { createTheme, ThemeProvider } from '@mui/material';
 import Karla from './fonts/Karla-VariableFont_wght.ttf';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
 
 const theme = createTheme({
   palette: {
@@ -40,6 +41,7 @@ function App() {
       <div className="App">
         <Stack spacing={2}>
           <Banner />
+          <Projects />
           <Footer />
         </Stack>
       </div>

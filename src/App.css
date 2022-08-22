@@ -16,3 +16,8 @@
 .App-link {
   color: #61dafb;
 }
+
+.banner {
+  padding: 10% 0;
+  background: linear-gradient(90deg, #e5d8fc 55%, white 45%);
+}
